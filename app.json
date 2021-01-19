@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Rift Business",
+    "slug": "rift-business",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "androidStatusBarColor": "#FF5A5F",
+    "androidStatusBar": {
+      "backgroundColor": "#FF5A5F",
+      "barStyle": "light-content"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
